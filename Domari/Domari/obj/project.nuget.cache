@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "w5uNxcXYvArgbLr9jX3ADknKmVKIbwYUDWqcC3o/DLWmhXrlaL5XIWNIBHLdeDhu99ZRprDPr4oj8+mpmjZ1Jg==",
+  "dgSpecHash": "fFjRnfHt7sVyvAYXvawDI9p6JAMn1o4UezLdL7lmlq9V8fD3XkVtPFbyZRTKB9T630LW3UTYduzIbjGrfGX+4w==",
   "success": true,
-  "projectFilePath": "D:\\D\\Ehlimana\\Documents\\VVS\\2020-2021\\Zadaća br. 3 (White Box Testiranje)\\Grupa RS-2\\Domari\\Domari\\Domari.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\User\\Desktop\\VVSZD3\\Domari\\Domari\\Domari.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
+  ],
   "logs": []
 }
