@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<coverage line-rate="0.243" branch-rate="0.1333" version="1.9" timestamp="1609019279" lines-covered="105" lines-valid="432" branches-covered="28" branches-valid="210">
+<coverage line-rate="0.1975" branch-rate="0.0898" version="1.9" timestamp="1609063425" lines-covered="98" lines-valid="496" branches-covered="23" branches-valid="256">
   <sources>
     <source>C:\Users\User\</source>
   </sources>
   <packages>
-    <package name="Domari" line-rate="0.21489999999999998" branch-rate="0.125" complexity="253">
+    <package name="Domari" line-rate="0.175" branch-rate="0.08259999999999999" complexity="299">
       <classes>
         <class name="Domari.Korisnik" filename="Desktop\VVSZD3\Domari\Domari\Korisnik.cs" line-rate="0.5769" branch-rate="0.4" complexity="13">
           <methods>
@@ -680,7 +680,7 @@
           <methods>
             <method name="get_IdentifikacioniBroj" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="24" hits="2" branch="False" />
+                <line number="24" hits="20002" branch="False" />
               </lines>
             </method>
             <method name="get_Podaci" signature="()" line-rate="0" branch-rate="1" complexity="1">
@@ -769,7 +769,7 @@
             </method>
           </methods>
           <lines>
-            <line number="24" hits="2" branch="False" />
+            <line number="24" hits="20002" branch="False" />
             <line number="28" hits="0" branch="False" />
             <line number="29" hits="1000000" branch="False" />
             <line number="33" hits="0" branch="False" />
@@ -812,11 +812,11 @@
             <line number="70" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="Domari.StudentskiDom" filename="Desktop\VVSZD3\Domari\Domari\StudentskiDom.cs" line-rate="0.18100000000000002" branch-rate="0.1458" complexity="147">
+        <class name="Domari.StudentskiDom" filename="Desktop\VVSZD3\Domari\Domari\StudentskiDom.cs" line-rate="0.1241" branch-rate="0.0842" complexity="193">
           <methods>
             <method name="get_Studenti" signature="()" line-rate="1" branch-rate="1" complexity="1">
               <lines>
-                <line number="21" hits="9" branch="False" />
+                <line number="21" hits="1000002" branch="False" />
               </lines>
             </method>
             <method name="get_Sobe" signature="()" line-rate="1" branch-rate="1" complexity="1">
@@ -1081,28 +1081,28 @@
                 <line number="200" hits="0" branch="False" />
               </lines>
             </method>
-            <method name="RadSaStudentomTuning1" signature="(Domari.Student,System.Int32)" line-rate="0" branch-rate="0" complexity="22">
+            <method name="RadSaStudentomTuning1" signature="(Domari.Student,System.Int32)" line-rate="0.24239999999999998" branch-rate="0.1818" complexity="22">
               <lines>
-                <line number="209" hits="0" branch="False" />
-                <line number="210" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="209" hits="1" branch="False" />
+                <line number="210" hits="1" branch="True" condition-coverage="50% (1/2)">
                   <conditions>
-                    <condition number="7" type="jump" coverage="0%" />
+                    <condition number="7" type="jump" coverage="50%" />
                   </conditions>
                 </line>
-                <line number="211" hits="0" branch="False" />
-                <line number="212" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="211" hits="1" branch="False" />
+                <line number="212" hits="20004" branch="True" condition-coverage="50% (1/2)">
                   <conditions>
-                    <condition number="71" type="jump" coverage="0%" />
+                    <condition number="71" type="jump" coverage="50%" />
                   </conditions>
                 </line>
-                <line number="213" hits="0" branch="False" />
-                <line number="214" hits="0" branch="True" condition-coverage="0% (0/2)">
+                <line number="213" hits="10001" branch="False" />
+                <line number="214" hits="10001" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
-                    <condition number="50" type="jump" coverage="0%" />
+                    <condition number="50" type="jump" coverage="100%" />
                   </conditions>
                 </line>
-                <line number="215" hits="0" branch="False" />
-                <line number="216" hits="0" branch="False" />
+                <line number="215" hits="1" branch="False" />
+                <line number="216" hits="10000" branch="False" />
                 <line number="217" hits="0" branch="False" />
                 <line number="218" hits="0" branch="False" />
                 <line number="219" hits="0" branch="True" condition-coverage="0% (0/2)">
@@ -1162,18 +1162,18 @@
                 <line number="243" hits="0" branch="False" />
               </lines>
             </method>
-            <method name="RadSaStudentomTuning2" signature="(Domari.Student,System.Int32)" line-rate="0.2" branch-rate="0.1956" complexity="46">
+            <method name="RadSaStudentomTuning2" signature="(Domari.Student,System.Int32)" line-rate="0" branch-rate="0" complexity="46">
               <lines>
-                <line number="249" hits="2" branch="False" />
-                <line number="250" hits="2" branch="True" condition-coverage="50% (1/2)">
+                <line number="249" hits="0" branch="False" />
+                <line number="250" hits="0" branch="True" condition-coverage="0% (0/2)">
                   <conditions>
-                    <condition number="7" type="jump" coverage="50%" />
+                    <condition number="7" type="jump" coverage="0%" />
                   </conditions>
                 </line>
-                <line number="251" hits="2" branch="False" />
-                <line number="253" hits="0" branch="True" condition-coverage="50% (1/2)">
+                <line number="251" hits="0" branch="False" />
+                <line number="253" hits="0" branch="True" condition-coverage="0% (0/2)">
                   <conditions>
-                    <condition number="260" type="jump" coverage="50%" />
+                    <condition number="260" type="jump" coverage="0%" />
                   </conditions>
                 </line>
                 <line number="254" hits="0" branch="False" />
@@ -1208,23 +1208,23 @@
                 </line>
                 <line number="264" hits="0" branch="False" />
                 <line number="265" hits="0" branch="False" />
-                <line number="266" hits="2" branch="True" condition-coverage="100% (2/2)">
+                <line number="266" hits="0" branch="True" condition-coverage="0% (0/2)">
                   <conditions>
-                    <condition number="283" type="jump" coverage="100%" />
+                    <condition number="283" type="jump" coverage="0%" />
                   </conditions>
                 </line>
-                <line number="267" hits="1" branch="False" />
-                <line number="268" hits="1" branch="True" condition-coverage="50% (1/2)">
+                <line number="267" hits="0" branch="False" />
+                <line number="268" hits="0" branch="True" condition-coverage="0% (0/2)">
                   <conditions>
-                    <condition number="315" type="jump" coverage="50%" />
+                    <condition number="315" type="jump" coverage="0%" />
                   </conditions>
                 </line>
-                <line number="269" hits="1" branch="False" />
+                <line number="269" hits="0" branch="False" />
                 <line number="270" hits="0" branch="False" />
                 <line number="271" hits="0" branch="False" />
-                <line number="272" hits="1" branch="True" condition-coverage="50% (1/2)">
+                <line number="272" hits="0" branch="True" condition-coverage="0% (0/2)">
                   <conditions>
-                    <condition number="356" type="jump" coverage="50%" />
+                    <condition number="356" type="jump" coverage="0%" />
                   </conditions>
                 </line>
                 <line number="273" hits="0" branch="False" />
@@ -1236,9 +1236,9 @@
                 <line number="275" hits="0" branch="False" />
                 <line number="276" hits="0" branch="False" />
                 <line number="277" hits="0" branch="False" />
-                <line number="278" hits="1" branch="True" condition-coverage="50% (1/2)">
+                <line number="278" hits="0" branch="True" condition-coverage="0% (0/2)">
                   <conditions>
-                    <condition number="429" type="jump" coverage="50%" />
+                    <condition number="429" type="jump" coverage="0%" />
                   </conditions>
                 </line>
                 <line number="279" hits="0" branch="False" />
@@ -1250,9 +1250,9 @@
                 <line number="281" hits="0" branch="False" />
                 <line number="282" hits="0" branch="False" />
                 <line number="283" hits="0" branch="False" />
-                <line number="284" hits="1" branch="True" condition-coverage="50% (1/2)">
+                <line number="284" hits="0" branch="True" condition-coverage="0% (0/2)">
                   <conditions>
-                    <condition number="499" type="jump" coverage="50%" />
+                    <condition number="499" type="jump" coverage="0%" />
                   </conditions>
                 </line>
                 <line number="285" hits="0" branch="False" />
@@ -1264,8 +1264,8 @@
                 <line number="287" hits="0" branch="False" />
                 <line number="288" hits="0" branch="False" />
                 <line number="289" hits="0" branch="False" />
-                <line number="290" hits="1" branch="False" />
-                <line number="291" hits="1" branch="False" />
+                <line number="290" hits="0" branch="False" />
+                <line number="291" hits="0" branch="False" />
                 <line number="292" hits="0" branch="True" condition-coverage="0% (0/2)">
                   <conditions>
                     <condition number="576" type="jump" coverage="0%" />
@@ -1294,9 +1294,9 @@
                 <line number="302" hits="0" branch="False" />
                 <line number="303" hits="0" branch="False" />
                 <line number="304" hits="0" branch="False" />
-                <line number="305" hits="0" branch="True" condition-coverage="50% (1/2)">
+                <line number="305" hits="0" branch="True" condition-coverage="0% (0/2)">
                   <conditions>
-                    <condition number="695" type="jump" coverage="50%" />
+                    <condition number="695" type="jump" coverage="0%" />
                   </conditions>
                 </line>
                 <line number="306" hits="0" branch="False" />
@@ -1320,7 +1320,169 @@
                 <line number="313" hits="0" branch="False" />
                 <line number="314" hits="0" branch="False" />
                 <line number="315" hits="0" branch="False" />
-                <line number="316" hits="1" branch="False" />
+                <line number="316" hits="0" branch="False" />
+              </lines>
+            </method>
+            <method name="RadSaStudentomTuning3" signature="(Domari.Student,System.Int32)" line-rate="0" branch-rate="0" complexity="46">
+              <lines>
+                <line number="322" hits="0" branch="False" />
+                <line number="323" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="7" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="324" hits="0" branch="False" />
+                <line number="325" hits="0" branch="False" />
+                <line number="327" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="244" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="328" hits="0" branch="False" />
+                <line number="329" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="50" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="330" hits="0" branch="False" />
+                <line number="331" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="89" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="332" hits="0" branch="False" />
+                <line number="333" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="128" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="334" hits="0" branch="False" />
+                <line number="335" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="167" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="336" hits="0" branch="False" />
+                <line number="337" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="206" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="338" hits="0" branch="False" />
+                <line number="339" hits="0" branch="False" />
+                <line number="340" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="267" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="341" hits="0" branch="False" />
+                <line number="342" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="294" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="343" hits="0" branch="False" />
+                <line number="344" hits="0" branch="False" />
+                <line number="345" hits="0" branch="False" />
+                <line number="346" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="335" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="347" hits="0" branch="False" />
+                <line number="348" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="362" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="349" hits="0" branch="False" />
+                <line number="350" hits="0" branch="False" />
+                <line number="351" hits="0" branch="False" />
+                <line number="352" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="403" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="353" hits="0" branch="False" />
+                <line number="354" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="430" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="355" hits="0" branch="False" />
+                <line number="356" hits="0" branch="False" />
+                <line number="357" hits="0" branch="False" />
+                <line number="358" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="468" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="359" hits="0" branch="False" />
+                <line number="360" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="495" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="361" hits="0" branch="False" />
+                <line number="362" hits="0" branch="False" />
+                <line number="363" hits="0" branch="False" />
+                <line number="364" hits="0" branch="False" />
+                <line number="365" hits="0" branch="False" />
+                <line number="366" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="540" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="367" hits="0" branch="False" />
+                <line number="368" hits="0" branch="False" />
+                <line number="369" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="598" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="370" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="583" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="371" hits="0" branch="False" />
+                <line number="372" hits="0" branch="False" />
+                <line number="373" hits="0" branch="False" />
+                <line number="375" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="626" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="376" hits="0" branch="False" />
+                <line number="377" hits="0" branch="False" />
+                <line number="378" hits="0" branch="False" />
+                <line number="379" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="659" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="380" hits="0" branch="False" />
+                <line number="381" hits="0" branch="False" />
+                <line number="382" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="722" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="383" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="709" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="384" hits="0" branch="False" />
+                <line number="386" hits="0" branch="True" condition-coverage="0% (0/2)">
+                  <conditions>
+                    <condition number="750" type="jump" coverage="0%" />
+                  </conditions>
+                </line>
+                <line number="387" hits="0" branch="False" />
+                <line number="388" hits="0" branch="False" />
+                <line number="389" hits="0" branch="False" />
+                <line number="390" hits="0" branch="False" />
               </lines>
             </method>
             <method name=".ctor" signature="(System.Int32)" line-rate="1" branch-rate="1" complexity="12">
@@ -1365,7 +1527,7 @@
             </method>
           </methods>
           <lines>
-            <line number="21" hits="9" branch="False" />
+            <line number="21" hits="1000002" branch="False" />
             <line number="26" hits="1000000" branch="False" />
             <line number="60" hits="1000000" branch="False" />
             <line number="62" hits="1000000" branch="False" />
@@ -1600,26 +1762,26 @@
             <line number="198" hits="0" branch="False" />
             <line number="199" hits="0" branch="False" />
             <line number="200" hits="0" branch="False" />
-            <line number="209" hits="0" branch="False" />
-            <line number="210" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="209" hits="1" branch="False" />
+            <line number="210" hits="1" branch="True" condition-coverage="50% (1/2)">
               <conditions>
-                <condition number="7" type="jump" coverage="0%" />
+                <condition number="7" type="jump" coverage="50%" />
               </conditions>
             </line>
-            <line number="211" hits="0" branch="False" />
-            <line number="212" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="211" hits="1" branch="False" />
+            <line number="212" hits="20004" branch="True" condition-coverage="50% (1/2)">
               <conditions>
-                <condition number="71" type="jump" coverage="0%" />
+                <condition number="71" type="jump" coverage="50%" />
               </conditions>
             </line>
-            <line number="213" hits="0" branch="False" />
-            <line number="214" hits="0" branch="True" condition-coverage="0% (0/2)">
+            <line number="213" hits="10001" branch="False" />
+            <line number="214" hits="10001" branch="True" condition-coverage="100% (2/2)">
               <conditions>
-                <condition number="50" type="jump" coverage="0%" />
+                <condition number="50" type="jump" coverage="100%" />
               </conditions>
             </line>
-            <line number="215" hits="0" branch="False" />
-            <line number="216" hits="0" branch="False" />
+            <line number="215" hits="1" branch="False" />
+            <line number="216" hits="10000" branch="False" />
             <line number="217" hits="0" branch="False" />
             <line number="218" hits="0" branch="False" />
             <line number="219" hits="0" branch="True" condition-coverage="0% (0/2)">
@@ -1677,16 +1839,16 @@
             <line number="241" hits="0" branch="False" />
             <line number="242" hits="0" branch="False" />
             <line number="243" hits="0" branch="False" />
-            <line number="249" hits="2" branch="False" />
-            <line number="250" hits="2" branch="True" condition-coverage="50% (1/2)">
+            <line number="249" hits="0" branch="False" />
+            <line number="250" hits="0" branch="True" condition-coverage="0% (0/2)">
               <conditions>
-                <condition number="7" type="jump" coverage="50%" />
+                <condition number="7" type="jump" coverage="0%" />
               </conditions>
             </line>
-            <line number="251" hits="2" branch="False" />
-            <line number="253" hits="0" branch="True" condition-coverage="50% (1/2)">
+            <line number="251" hits="0" branch="False" />
+            <line number="253" hits="0" branch="True" condition-coverage="0% (0/2)">
               <conditions>
-                <condition number="260" type="jump" coverage="50%" />
+                <condition number="260" type="jump" coverage="0%" />
               </conditions>
             </line>
             <line number="254" hits="0" branch="False" />
@@ -1721,23 +1883,23 @@
             </line>
             <line number="264" hits="0" branch="False" />
             <line number="265" hits="0" branch="False" />
-            <line number="266" hits="2" branch="True" condition-coverage="100% (2/2)">
+            <line number="266" hits="0" branch="True" condition-coverage="0% (0/2)">
               <conditions>
-                <condition number="283" type="jump" coverage="100%" />
+                <condition number="283" type="jump" coverage="0%" />
               </conditions>
             </line>
-            <line number="267" hits="1" branch="False" />
-            <line number="268" hits="1" branch="True" condition-coverage="50% (1/2)">
+            <line number="267" hits="0" branch="False" />
+            <line number="268" hits="0" branch="True" condition-coverage="0% (0/2)">
               <conditions>
-                <condition number="315" type="jump" coverage="50%" />
+                <condition number="315" type="jump" coverage="0%" />
               </conditions>
             </line>
-            <line number="269" hits="1" branch="False" />
+            <line number="269" hits="0" branch="False" />
             <line number="270" hits="0" branch="False" />
             <line number="271" hits="0" branch="False" />
-            <line number="272" hits="1" branch="True" condition-coverage="50% (1/2)">
+            <line number="272" hits="0" branch="True" condition-coverage="0% (0/2)">
               <conditions>
-                <condition number="356" type="jump" coverage="50%" />
+                <condition number="356" type="jump" coverage="0%" />
               </conditions>
             </line>
             <line number="273" hits="0" branch="False" />
@@ -1749,9 +1911,9 @@
             <line number="275" hits="0" branch="False" />
             <line number="276" hits="0" branch="False" />
             <line number="277" hits="0" branch="False" />
-            <line number="278" hits="1" branch="True" condition-coverage="50% (1/2)">
+            <line number="278" hits="0" branch="True" condition-coverage="0% (0/2)">
               <conditions>
-                <condition number="429" type="jump" coverage="50%" />
+                <condition number="429" type="jump" coverage="0%" />
               </conditions>
             </line>
             <line number="279" hits="0" branch="False" />
@@ -1763,9 +1925,9 @@
             <line number="281" hits="0" branch="False" />
             <line number="282" hits="0" branch="False" />
             <line number="283" hits="0" branch="False" />
-            <line number="284" hits="1" branch="True" condition-coverage="50% (1/2)">
+            <line number="284" hits="0" branch="True" condition-coverage="0% (0/2)">
               <conditions>
-                <condition number="499" type="jump" coverage="50%" />
+                <condition number="499" type="jump" coverage="0%" />
               </conditions>
             </line>
             <line number="285" hits="0" branch="False" />
@@ -1777,8 +1939,8 @@
             <line number="287" hits="0" branch="False" />
             <line number="288" hits="0" branch="False" />
             <line number="289" hits="0" branch="False" />
-            <line number="290" hits="1" branch="False" />
-            <line number="291" hits="1" branch="False" />
+            <line number="290" hits="0" branch="False" />
+            <line number="291" hits="0" branch="False" />
             <line number="292" hits="0" branch="True" condition-coverage="0% (0/2)">
               <conditions>
                 <condition number="576" type="jump" coverage="0%" />
@@ -1807,9 +1969,9 @@
             <line number="302" hits="0" branch="False" />
             <line number="303" hits="0" branch="False" />
             <line number="304" hits="0" branch="False" />
-            <line number="305" hits="0" branch="True" condition-coverage="50% (1/2)">
+            <line number="305" hits="0" branch="True" condition-coverage="0% (0/2)">
               <conditions>
-                <condition number="695" type="jump" coverage="50%" />
+                <condition number="695" type="jump" coverage="0%" />
               </conditions>
             </line>
             <line number="306" hits="0" branch="False" />
@@ -1833,7 +1995,165 @@
             <line number="313" hits="0" branch="False" />
             <line number="314" hits="0" branch="False" />
             <line number="315" hits="0" branch="False" />
-            <line number="316" hits="1" branch="False" />
+            <line number="316" hits="0" branch="False" />
+            <line number="322" hits="0" branch="False" />
+            <line number="323" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="7" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="324" hits="0" branch="False" />
+            <line number="325" hits="0" branch="False" />
+            <line number="327" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="244" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="328" hits="0" branch="False" />
+            <line number="329" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="50" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="330" hits="0" branch="False" />
+            <line number="331" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="89" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="332" hits="0" branch="False" />
+            <line number="333" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="128" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="334" hits="0" branch="False" />
+            <line number="335" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="167" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="336" hits="0" branch="False" />
+            <line number="337" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="206" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="338" hits="0" branch="False" />
+            <line number="339" hits="0" branch="False" />
+            <line number="340" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="267" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="341" hits="0" branch="False" />
+            <line number="342" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="294" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="343" hits="0" branch="False" />
+            <line number="344" hits="0" branch="False" />
+            <line number="345" hits="0" branch="False" />
+            <line number="346" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="335" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="347" hits="0" branch="False" />
+            <line number="348" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="362" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="349" hits="0" branch="False" />
+            <line number="350" hits="0" branch="False" />
+            <line number="351" hits="0" branch="False" />
+            <line number="352" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="403" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="353" hits="0" branch="False" />
+            <line number="354" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="430" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="355" hits="0" branch="False" />
+            <line number="356" hits="0" branch="False" />
+            <line number="357" hits="0" branch="False" />
+            <line number="358" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="468" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="359" hits="0" branch="False" />
+            <line number="360" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="495" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="361" hits="0" branch="False" />
+            <line number="362" hits="0" branch="False" />
+            <line number="363" hits="0" branch="False" />
+            <line number="364" hits="0" branch="False" />
+            <line number="365" hits="0" branch="False" />
+            <line number="366" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="540" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="367" hits="0" branch="False" />
+            <line number="368" hits="0" branch="False" />
+            <line number="369" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="598" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="370" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="583" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="371" hits="0" branch="False" />
+            <line number="372" hits="0" branch="False" />
+            <line number="373" hits="0" branch="False" />
+            <line number="375" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="626" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="376" hits="0" branch="False" />
+            <line number="377" hits="0" branch="False" />
+            <line number="378" hits="0" branch="False" />
+            <line number="379" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="659" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="380" hits="0" branch="False" />
+            <line number="381" hits="0" branch="False" />
+            <line number="382" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="722" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="383" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="709" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="384" hits="0" branch="False" />
+            <line number="386" hits="0" branch="True" condition-coverage="0% (0/2)">
+              <conditions>
+                <condition number="750" type="jump" coverage="0%" />
+              </conditions>
+            </line>
+            <line number="387" hits="0" branch="False" />
+            <line number="388" hits="0" branch="False" />
+            <line number="389" hits="0" branch="False" />
+            <line number="390" hits="0" branch="False" />
             <line number="33" hits="1" branch="False" />
             <line number="34" hits="1" branch="False" />
             <line number="35" hits="1" branch="False" />
@@ -1874,7 +2194,7 @@
         </class>
       </classes>
     </package>
-    <package name="UnitTestProject1" line-rate="0.8887999999999999" branch-rate="1" complexity="3">
+    <package name="UnitTestProject1" line-rate="0.875" branch-rate="1" complexity="3">
       <classes>
         <class name="AutoGeneratedProgram" filename=".nuget\packages\microsoft.net.test.sdk\16.7.1\build\netcoreapp2.1\Microsoft.NET.Test.Sdk.Program.cs" line-rate="0" branch-rate="1" complexity="1">
           <methods>
@@ -1888,56 +2208,52 @@
             <line number="4" hits="0" branch="False" />
           </lines>
         </class>
-        <class name="UnitTestProject1.UnitTest1" filename="Desktop\VVSZD3\Domari\UnitTestProject1\UnitTest1.cs" line-rate="0.9411" branch-rate="1" complexity="2">
+        <class name="UnitTestProject1.UnitTest1" filename="Desktop\VVSZD3\Domari\UnitTestProject1\UnitTest1.cs" line-rate="0.9333" branch-rate="1" complexity="2">
           <methods>
-            <method name="TestMethod1" signature="()" line-rate="0.9411" branch-rate="1" complexity="2">
+            <method name="TestMethod1" signature="()" line-rate="0.9333" branch-rate="1" complexity="2">
               <lines>
                 <line number="13" hits="1" branch="False" />
                 <line number="14" hits="1" branch="False" />
-                <line number="15" hits="1" branch="False" />
-                <line number="16" hits="2000002" branch="True" condition-coverage="100% (2/2)">
+                <line number="15" hits="2000002" branch="True" condition-coverage="100% (2/2)">
                   <conditions>
-                    <condition number="101" type="jump" coverage="100%" />
+                    <condition number="96" type="jump" coverage="100%" />
                   </conditions>
                 </line>
+                <line number="16" hits="1000000" branch="False" />
                 <line number="17" hits="1000000" branch="False" />
                 <line number="18" hits="1000000" branch="False" />
-                <line number="19" hits="1000000" branch="False" />
-                <line number="21" hits="1" branch="False" />
+                <line number="20" hits="1" branch="False" />
+                <line number="23" hits="1" branch="False" />
                 <line number="24" hits="1" branch="False" />
-                <line number="25" hits="1" branch="False" />
+                <line number="25" hits="0" branch="False" />
                 <line number="26" hits="1" branch="False" />
-                <line number="27" hits="0" branch="False" />
-                <line number="28" hits="1" branch="False" />
+                <line number="27" hits="1" branch="False" />
                 <line number="29" hits="1" branch="False" />
-                <line number="31" hits="1" branch="False" />
+                <line number="30" hits="1" branch="False" />
                 <line number="32" hits="1" branch="False" />
-                <line number="34" hits="1" branch="False" />
               </lines>
             </method>
           </methods>
           <lines>
             <line number="13" hits="1" branch="False" />
             <line number="14" hits="1" branch="False" />
-            <line number="15" hits="1" branch="False" />
-            <line number="16" hits="2000002" branch="True" condition-coverage="100% (2/2)">
+            <line number="15" hits="2000002" branch="True" condition-coverage="100% (2/2)">
               <conditions>
-                <condition number="101" type="jump" coverage="100%" />
+                <condition number="96" type="jump" coverage="100%" />
               </conditions>
             </line>
+            <line number="16" hits="1000000" branch="False" />
             <line number="17" hits="1000000" branch="False" />
             <line number="18" hits="1000000" branch="False" />
-            <line number="19" hits="1000000" branch="False" />
-            <line number="21" hits="1" branch="False" />
+            <line number="20" hits="1" branch="False" />
+            <line number="23" hits="1" branch="False" />
             <line number="24" hits="1" branch="False" />
-            <line number="25" hits="1" branch="False" />
+            <line number="25" hits="0" branch="False" />
             <line number="26" hits="1" branch="False" />
-            <line number="27" hits="0" branch="False" />
-            <line number="28" hits="1" branch="False" />
+            <line number="27" hits="1" branch="False" />
             <line number="29" hits="1" branch="False" />
-            <line number="31" hits="1" branch="False" />
+            <line number="30" hits="1" branch="False" />
             <line number="32" hits="1" branch="False" />
-            <line number="34" hits="1" branch="False" />
           </lines>
         </class>
       </classes>

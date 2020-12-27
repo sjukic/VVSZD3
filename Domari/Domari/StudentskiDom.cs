@@ -317,6 +317,80 @@ namespace Domari
 
 
 
+
+        public void RadSaStudentomTuning3(Student student, int opcija)
+        {
+            if (opcija == 0)
+            {
+                int identBroj = student.IdentifikacioniBroj;
+                int i;
+                for (i = 0; i < Studenti.Count - 5; i += 5)
+                {
+                    if (Studenti[i].IdentifikacioniBroj == identBroj)
+                        throw new DuplicateWaitObjectException("Nemoguće dodati postojećeg studenta!");
+                    if (Studenti[i + 1].IdentifikacioniBroj == identBroj)
+                        throw new DuplicateWaitObjectException("Nemoguće dodati postojećeg studenta!");
+                    if (Studenti[i + 2].IdentifikacioniBroj == identBroj)
+                        throw new DuplicateWaitObjectException("Nemoguće dodati postojećeg studenta!");
+                    if (Studenti[i + 3].IdentifikacioniBroj == identBroj)
+                        throw new DuplicateWaitObjectException("Nemoguće dodati postojećeg studenta!");
+                    if (Studenti[i + 4].IdentifikacioniBroj == identBroj)
+                        throw new DuplicateWaitObjectException("Nemoguće dodati postojećeg studenta!");
+                }
+                if (i < Studenti.Count)
+                {
+                    if (Studenti[i].IdentifikacioniBroj == identBroj)
+                        throw new DuplicateWaitObjectException("Nemoguće dodati postojećeg studenta!");
+                    i++;
+                }
+                else if (i < Studenti.Count)
+                {
+                    if (Studenti[i].IdentifikacioniBroj == identBroj)
+                        throw new DuplicateWaitObjectException("Nemoguće dodati postojećeg studenta!");
+                    i++;
+                }
+                else if (i < Studenti.Count)
+                {
+                    if (Studenti[i].IdentifikacioniBroj == identBroj)
+                        throw new DuplicateWaitObjectException("Nemoguće dodati postojećeg studenta!");
+                    i++;
+                }
+                else if (i < Studenti.Count)
+                {
+                    if (Studenti[i].IdentifikacioniBroj == identBroj)
+                        throw new DuplicateWaitObjectException("Nemoguće dodati postojećeg studenta!");
+                    i++;
+                }
+                Studenti.Add(student);
+            }
+            else if (opcija == 1)
+            {
+                Soba soba = null;
+                foreach (Soba s in Sobe)
+                    if (s.DaLiJeStanar(student))
+                    {
+                        soba = s;
+                    }
+
+                if (soba == null)
+                    throw new InvalidOperationException("Student nije stanar nijedne sobe!");
+                soba.IzbaciStudenta(student);
+            }
+            else if (opcija == 2)
+            {
+                Student studentIzListe = null;
+                foreach (Student s in Studenti)
+                    if (s.IdentifikacioniBroj == student.IdentifikacioniBroj)
+                        studentIzListe = s;
+
+                if (studentIzListe == null)
+                    throw new MissingMemberException("Student nije prijavljen u dom!");
+                Studenti.Remove(studentIzListe);
+            }
+        }
+
+
+
         #endregion
     }
 }

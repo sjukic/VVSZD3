@@ -12,18 +12,16 @@ namespace UnitTestProject1
         public void TestMethod1()
         {
             StudentskiDom studentskiDom = new StudentskiDom(1000000);
-            List <Student> studentList = new List<Student>(); 
             for(int i=0; i<1000000; i++)
             {
-                studentList.Add(new Student("ime" + i, "password" + i, new LicniPodaci(),null, new Skolovanje()));
+                studentskiDom.Studenti.Add(new Student("ime" + i, "password" + i, new LicniPodaci(),null, new Skolovanje()));
             }
 
             int x = 0;
 
             try
             {
-                studentskiDom.RadSaStudentomTuning1(studentList[10000], 0);
-                studentskiDom.RadSaStudentomTuning1(studentList[10000], 0);
+                studentskiDom.RadSaStudentomTuning3(studentskiDom.Studenti[10000],0);
             }
             catch (DuplicateWaitObjectException e)
             {
