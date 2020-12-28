@@ -125,7 +125,7 @@ namespace Domari
                 {
                     if (s.Stanari.Count < s.Kapacitet)
                     {
-                        slobodnaSoba = s;
+                        biloKoja = s;
                         break;
                     }
                 }
