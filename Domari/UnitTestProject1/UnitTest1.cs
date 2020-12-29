@@ -14,11 +14,9 @@ namespace UnitTestProject1
             Student student = new Student("hrvo", "hrvic123", new LicniPodaci(), null, new Skolovanje());
             StudentskiDom studentskiDom = new StudentskiDom(100);
             for(int i=0; i<10; i++)
-            {
-                studentskiDom.Sobe.Add(new Soba(i, 20));
-            }
+              studentskiDom.Sobe.Add(new Soba(i, 20));
             studentskiDom.UpisUDom(student, 20, false);
-            Assert.AreEqual(studentskiDom.Sobe[100].DaLiJeStanar(student),true);
+            Assert.AreEqual(true, studentskiDom.Sobe[100].DaLiJeStanar(student));
         }
 
         [TestMethod]
@@ -29,13 +27,11 @@ namespace UnitTestProject1
             Student student2 = new Student("sanjin", "sanjin123", new LicniPodaci(), null, new Skolovanje());
             StudentskiDom studentskiDom = new StudentskiDom(0);
             for (int i = 0; i < 2; i++)
-            {
                 studentskiDom.Sobe.Add(new Soba(i, 20));
-            }
             studentskiDom.UpisUDom(student, 2, true);
             studentskiDom.UpisUDom(student1, 2, true);
             studentskiDom.UpisUDom(student2, 2, true);
-            Assert.AreEqual(studentskiDom.Sobe[0].Stanari.Count, 3);
+            Assert.AreEqual(3, studentskiDom.Sobe[0].Stanari.Count);
         }
 
 
@@ -46,9 +42,7 @@ namespace UnitTestProject1
             Student student = new Student("hrvo", "hrvic123", new LicniPodaci(), null, new Skolovanje());
             StudentskiDom studentskiDom = new StudentskiDom(100);
             for (int i = 0; i < 10; i++)
-            {
                 studentskiDom.Sobe.Add(new Soba(i + 5, 20));
-            }
             studentskiDom.UpisUDom(student, 50, false);
         }
 

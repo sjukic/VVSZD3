@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fFjRnfHt7sVyvAYXvawDI9p6JAMn1o4UezLdL7lmlq9V8fD3XkVtPFbyZRTKB9T630LW3UTYduzIbjGrfGX+4w==",
+  "dgSpecHash": "Ty/HkMUzOq7MkYNtbz990uFO4gjfRSgnkfud5xXW+tzmEITw60490X+/pyysur5EOdq52ZN7NYGYyzGIYX/UZQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\Desktop\\VVSZD3\\Domari\\Domari\\Domari.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\User\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\User\\Desktop\\VVS\\zadaca 3\\Domari\\Domari\\Domari.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

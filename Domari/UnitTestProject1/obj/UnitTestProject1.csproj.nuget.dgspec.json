@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User\\Desktop\\VVSZD3\\Domari\\UnitTestProject1\\UnitTestProject1.csproj": {}
+    "C:\\Users\\User\\Desktop\\VVS\\zadaca 3\\Domari\\UnitTestProject1\\UnitTestProject1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User\\Desktop\\VVSZD3\\Domari\\Domari\\Domari.csproj": {
+    "C:\\Users\\User\\Desktop\\VVS\\zadaca 3\\Domari\\Domari\\Domari.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\VVSZD3\\Domari\\Domari\\Domari.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\VVS\\zadaca 3\\Domari\\Domari\\Domari.csproj",
         "projectName": "Domari",
-        "projectPath": "C:\\Users\\User\\Desktop\\VVSZD3\\Domari\\Domari\\Domari.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\VVS\\zadaca 3\\Domari\\Domari\\Domari.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\VVSZD3\\Domari\\Domari\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\VVS\\zadaca 3\\Domari\\Domari\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -49,29 +49,23 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\User\\Desktop\\VVSZD3\\Domari\\UnitTestProject1\\UnitTestProject1.csproj": {
+    "C:\\Users\\User\\Desktop\\VVS\\zadaca 3\\Domari\\UnitTestProject1\\UnitTestProject1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User\\Desktop\\VVSZD3\\Domari\\UnitTestProject1\\UnitTestProject1.csproj",
+        "projectUniqueName": "C:\\Users\\User\\Desktop\\VVS\\zadaca 3\\Domari\\UnitTestProject1\\UnitTestProject1.csproj",
         "projectName": "UnitTestProject1",
-        "projectPath": "C:\\Users\\User\\Desktop\\VVSZD3\\Domari\\UnitTestProject1\\UnitTestProject1.csproj",
+        "projectPath": "C:\\Users\\User\\Desktop\\VVS\\zadaca 3\\Domari\\UnitTestProject1\\UnitTestProject1.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User\\Desktop\\VVSZD3\\Domari\\UnitTestProject1\\obj\\",
+        "outputPath": "C:\\Users\\User\\Desktop\\VVS\\zadaca 3\\Domari\\UnitTestProject1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -88,8 +82,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\User\\Desktop\\VVSZD3\\Domari\\Domari\\Domari.csproj": {
-                "projectPath": "C:\\Users\\User\\Desktop\\VVSZD3\\Domari\\Domari\\Domari.csproj"
+              "C:\\Users\\User\\Desktop\\VVS\\zadaca 3\\Domari\\Domari\\Domari.csproj": {
+                "projectPath": "C:\\Users\\User\\Desktop\\VVS\\zadaca 3\\Domari\\Domari\\Domari.csproj"
               }
             }
           }
@@ -131,18 +125,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[3.1.10, 3.1.10]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }
